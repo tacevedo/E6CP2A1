@@ -1,3 +1,9 @@
-# Crear un método que muestre en pantalla un saludo, el método
-# debe recibir un parámetro, si ese parámetro es el string "Hola" el
-# método debe mostrar en pantalla "Hola Mundo".
+# Crear un metodo que muestre en pantalla un saludo, el metodo
+# debe recibir un parametro, si ese parametro es el string "Hola" el
+# metodo debe mostrar en pantalla "Hola Mundo".
+
+def metodo(par)
+  puts 'Hola mundo' if par == 'Hola'
+end
+
+metodo('Hola')

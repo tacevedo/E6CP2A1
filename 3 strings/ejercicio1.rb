@@ -5,3 +5,9 @@
 
 cadena = 'Hola Mundo!'
 caracter = 'o'
+
+def incluye (str, car)
+  puts str.include?(car)
+end
+print "cadena -#{cadena}- incluye caracter -#{caracter}- ?? "
+puts incluye(cadena, caracter)
