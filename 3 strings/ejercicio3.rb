@@ -6,3 +6,13 @@
 
 a = [1, 2, 3, 9, 12, 31, 'domingo']
 b = %w[lunes martes miércoles jueves viernes sábado domingo]
+
+#1
+puts c = a + b
+
+#2
+b.each_width_ do |valbs|
+  a.each do |vala|
+      if
+  end
+end
