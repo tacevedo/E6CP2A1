@@ -22,9 +22,12 @@ puts 'ejercicio 2'
 puts b
 
 #3
-c = []
-a.each do |val|
-  c.push(val.length)
+def caracteres (arr)
+  c = []
+  arr.each do |val|
+    c.push(val.length)
+  end
+  c
 end
 puts 'ejercicio 3'
-puts c
+puts caracteres(a)
